@@ -1,0 +1,66 @@
+.topbar {
+  position: relative;
+  top: 5svw;
+  margin-bottom: 7svw;
+}
+
+h2 {
+  position: relative;
+  top: 10%;
+  left: 40%;
+  max-width: 20%;
+}
+
+.title {
+  font-size: 35px;
+  color: #333333;
+}
+
+.searchbar {
+  position: relative;
+  top: 15%;
+  left: 15%;
+  max-width: 50svw;
+}
+
+.searchbar-content {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+
+li {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.input {
+  margin-right: 20px;
+  padding: 0 0 0 55px;
+  height: 50px;
+  width: 500px;
+  border: 1px solid rgba(104, 100, 100, 0.245);
+  border-spacing: 15px;
+  font-size: 20px;
+}
+
+::placeholder {
+  position: relative;
+  right: 40px;
+}
+
+.api,
+.webhook {
+  width: 90px;
+  height: 33px;
+  border: none;
+  border-radius: 25px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.api:active,
+.webhook:active {
+  background-color: #4d148c;
+  color: white;
+}

@@ -1,0 +1,54 @@
+.sign-up-content {
+  width: 50%;
+  height: 50%;
+  margin: 8rem 0 8rem 20rem;
+  justify-content: center;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.login-text {
+  font-size: 35px;
+}
+
+.login-button {
+  width: 40%;
+  height: 17%;
+  background-color: #ff6200;
+  color: white;
+  font-size: 19px;
+  font-weight: bold;
+  border: none;
+  margin: 1.5rem 0 1.5rem 0;
+  cursor: pointer;
+}
+
+.forgot-password {
+  font-size: 14px;
+  font-weight: bold;
+  color: #007ab7;
+  margin: 0 0 1.5rem 0;
+}
+
+.line {
+  width: 25svw;
+  border: 1px solid rgba(0, 0, 0, 0.114);
+  margin: auto;
+}
+
+.signup-text {
+  margin: 1.5rem 0 1.5rem 0;
+  font-size: 14px;
+  color: #333333;
+}
+
+.signup-button {
+  width: 40%;
+  height: 17%;
+  background-color: white;
+  color: #ff6200;
+  font-size: 19px;
+  font-weight: bold;
+  border: 2px solid #ff6200;
+  cursor: pointer;
+}
